@@ -1,0 +1,16 @@
+img{
+  width: 100%;
+  height: 400px;
+}
+form{
+  font: bold 16px Arial;
+  color: black;
+}
+form input{
+  height:30px;
+  width: 30%;
+}
+::-webkit-input-placeholder {	text-align: center;	}
+:-moz-placeholder {	text-align: center;	}
+::-moz-placeholder {	text-align: center;	}
+:-ms-input-placeholder {	text-align: center;	}

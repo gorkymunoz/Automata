@@ -1,0 +1,35 @@
+#titulo{
+  padding-top:20px;
+  margin-bottom: -20px;
+}
+p>a{
+  color:white;
+  font-size: 25px;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+
+.nav-link{
+  color:white;
+  font: bold 14px Verdana;
+}
+*{
+  background-color: rgb(145, 24, 15);
+}
+#busqueda{
+  background-color: white;
+}
+.dropdown:hover>.dropdown-menu{
+  display: block;
+  background-color: white;
+  width: 100%;
+}
+
+.dropdown-item{
+  background-color: white;
+  font: bold 12px Arial;
+  width:100%;
+}
+.justify-content-end{
+  padding-bottom: 8px;
+}

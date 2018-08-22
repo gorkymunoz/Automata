@@ -1,0 +1,18 @@
+.card{
+  border:none;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px;
+}
+.card-title{
+  text-align:center;
+  font-weight: bold;
+}
+.card-text{
+  text-align: center;
+}
+img{
+  margin-left:40%;
+  width: 50px;
+  heigh:30px;
+}

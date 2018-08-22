@@ -1,0 +1,17 @@
+<div class="carousel slide" *ngFor="let dato of resultado">
+  <div class="carousel-inner">
+    <div class="carousel-caption">
+      <form action={{dato.formulario}}>
+        <h1>{{dato.titulo}}</h1>
+        <p class="lead">{{dato.desc}}</p>
+        <input type="text" name="asesoria" placeholder={{dato.info}}>
+        <br/>
+        <a class="btn btn-primary" [routerLink]=dato.vinculo >{{dato.boton}}</a>
+
+      </form>
+    </div>
+    <div class="item active">
+      <img src="assets/automata1.jpg" alt="">
+    </div>
+  </div><!-- /.carousel -->
+</div>

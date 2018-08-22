@@ -1,0 +1,30 @@
+*{
+  padding:0;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body{
+  /*background-color: rgb(249, 243, 234);*/
+  background-color: white;
+}
+
+#titulo{
+  background-color: rgb(145, 24, 15);
+}
+/*Placeholder alineados al centro*/
+::-webkit-input-placeholder {	text-align: center;	}
+:-moz-placeholder {	text-align: center;	}
+::-moz-placeholder {	text-align: center;	}
+:-ms-input-placeholder {	text-align: center;	}
+
+/************Fin sección 3****************/
+#tituloEjemplos{
+  padding:20px 0px;
+}
+.btn{
+  width: 100%;
+}
+#footer{
+  background-color: #4d5259;
+}

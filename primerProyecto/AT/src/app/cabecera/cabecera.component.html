@@ -1,0 +1,78 @@
+<div id="titulo" class="row">
+  <div class="col-sm-2">
+
+  </div>
+  <div class="col-sm-4">
+
+    <p><a [routerLink]="['/home']">AUTÓMATA</a></p>
+
+  </div>
+  <div class="col-sm-4">
+
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/inicioSesion']">Iniciar sesión</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/registro']">Registrarse</a>
+      </li>
+    </ul>
+
+  </div>
+  <div class="col-sm-2">
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-2">
+
+  </div>
+  <div class="col-sm-8">
+    <div class="dropdown-divider"></div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown" [routerLink]="['/creaDocumentos']" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Crea un documento
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Familia</a>
+              <a class="dropdown-item" href="#">Finanzas</a>
+              <a class="dropdown-item" href="#">Otros</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown" [routerLink]="['/preguntaAbogado']" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Pregunta a un abogado
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+              <a class="dropdown-item" href="#">Organización de negocios</a>
+              <a class="dropdown-item" href="#">Operaciones de negocios</a>
+              <a class="dropdown-item" href="#">Propiedades de negocios</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/recibe-asesoramiento']">Guías</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre nosotros</a>
+          </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search" id="busqueda">
+          <button class="btn btn-sm btn-outline-secondary my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+      </div>
+    </nav>
+
+  </div>
+  <div class="col-sm-2">
+
+  </div>
+
+</div>

@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-sm-12" *ngFor="let dato of resultadotg">
+    <p>{{dato.descripcion}}<a href="#">Lee la guía</a></p>
+    <hr>
+    <div class="row">
+      <div class="col-sm-6">
+
+        <app-guias [resultado]=dato.tituloVin></app-guias>
+      </div>
+    </div>
+  </div>
+</div>
+
+

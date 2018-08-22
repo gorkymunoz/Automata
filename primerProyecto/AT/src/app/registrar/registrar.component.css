@@ -1,0 +1,13 @@
+#cuadroInicio{
+  background-color: #cfd0d3;
+  height: 100%;
+}
+#cuadro{
+  margin: 25px 0px;
+  background-color: white;
+  border: 1px ridge #9f9fa0;
+
+}
+h1{
+  padding: 20px 0px;
+}

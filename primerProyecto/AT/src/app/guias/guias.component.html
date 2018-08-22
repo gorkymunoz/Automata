@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="col-sm-12" *ngFor="let dato of resultado">
+    <div class="list-group">
+      <a [routerLink]=dato.vinculo class="list-group-item list-group-item-action flex-column align-items-start">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1" id="titulo">{{dato.titulo}}</h5>
+        </div>
+        <p class="mb-1">{{dato.descripcion}}</p>
+      </a>
+    </div>
+  </div>
+</div>

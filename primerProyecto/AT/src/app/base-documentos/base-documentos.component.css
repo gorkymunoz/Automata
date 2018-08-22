@@ -1,0 +1,17 @@
+.row{
+  margin-top: 30px;
+}
+
+.button{
+  padding: 30px 20px;
+}
+hr{
+  width: 100%;
+  border-color: #a8abaf;
+}
+
+.descripcion{
+  background-color: #e3e5e8;
+  width: 100%;
+  padding: 20px 5px;
+}

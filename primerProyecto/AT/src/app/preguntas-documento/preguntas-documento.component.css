@@ -1,0 +1,22 @@
+.form-control{
+  width: 60%;
+}
+
+p{
+  font-family: Arial;
+  font-size: large;
+}
+
+input:focus{
+  border-color: #e58f27;
+}
+
+input[type="checkbox"]:focus{
+  color: #e58f27;
+  background-color: #e58f27;
+}
+
+.form-group{
+  padding: 10px 10px;
+  border: 1px solid #e58f27;
+}

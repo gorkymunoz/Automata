@@ -1,0 +1,75 @@
+<div class="row">
+  <div class="col-sm-10">
+    <form #contratoArrendamiento="ngForm">
+
+      <div class="form-group">
+        <p>Introduce tus datos</p>
+        <label for="nombreArrendador">Nombres y apellidos</label>
+        <input type="text" class="form-control" name="nombreArrendador" id="nombreArrendador" ngModel >
+        <label for="cedulaArrendador">Cédula de ciudadanía</label>
+        <input type="text" class="form-control" name="cedulaArrendador" id="cedulaArrendador"  ngModel>
+      </div>
+
+      <div class="form-group">
+        <p>Introduce los datos del Arrendatario</p>
+        <label for="nombreArrendatario">Nombres y apellidos</label>
+        <input type="text" name="nombreArrendatario" class="form-control" id="nombreArrendatario" ngModel>
+        <label for="cedulaArrendatario">Cédula de ciudadanía</label>
+        <input type="text" name="cedulaArrendatario" class="form-control" id="cedulaArrendatario" ngModel>
+      </div>
+
+      <div class="form-group">
+        <p>Datos de domicilio</p>
+        <div>Tipo de vivienda</div>
+        <div class="form-check">
+
+          <input class="form-check-input" type="radio" id="tipoVivienda1" name="tipoVivienda" value="departamento" ngModel>
+          <label class="form-check-label" for="tipoVivienda1">Departamento</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" id="tipoVivienda2" name="tipoVivienda" value="casa" ngModel>
+          <label class="form-check-label" for="tipoVivienda1">Casa</label>
+        </div>
+
+        <label for="ubicacion">Dirección completa</label>
+        <input type="text" class="form-control" name="ubicacion" id="ubicacion"  ngModel>
+      </div>
+
+      <div class="form-group">
+
+        <p>Pagos</p>
+        <label for="canon">Canon (Arrendamiento mensual)</label>
+        <input type="text" name="canon" class="form-control" id="canon" ngModel>
+        <label for="numeroMedidor">Número del medidor</label>
+        <input type="text" name="numeroMedidor" class="form-control" id="numeroMedidor" ngModel>
+        <label for="numeroTelefono">Número de teléfono</label>
+        <input type="text" name="numeroTelefono" class="form-control" id="numeroTelefono" ngModel>
+      </div>
+
+      <div class="form-group">
+        <p>Plazo y terminación</p>
+        <label for="duracion">Duración del contrato</label>
+        <input type="text" name="duracion" class="form-control" id="duracion" ngModel>
+        <label for="fechaInicio">Fecha de inicio del contrato</label>
+        <input type="date" name="fechaInicio" class="form-control" id="fechaInicio" ngModel>
+        <label for="diasNotificacionVoluntad">Días previos a notificar la terminación por voluntad del contrato</label>
+        <input type="text" name="diasNotificacionVoluntad" class="form-control" id="diasNotificacionVoluntad" ngModel>
+        <label for="diasNotificacionTerminacion">Días previos a notificar la terminación del contrato</label>
+        <input type="text" name="diasNotificacionTerminacion" class="form-control" id="diasNotificacionTerminacion" ngModel>
+      </div>
+
+      <div class="form-group">
+        <p>¿En qué lugar y fecha se firma este convenio?</p>
+        <input class="form-control" type="text" name="lugar" id="lugar" ngModel>
+        <label for="lugar">Lugar</label>
+        <label for="fecha">Fecha</label>
+        <input class="form-control" type="date" name="fecha" id="fecha" ngModel>
+      </div>
+
+      <button type="button" class="btn btn-outline-warning btn-lg" (click)="enviarDatos(contratoArrendamiento.value)">
+        Continuar
+      </button>
+    </form>
+  </div>
+</div>
+
